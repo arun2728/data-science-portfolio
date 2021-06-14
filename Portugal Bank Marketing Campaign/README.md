@@ -9,11 +9,23 @@
 ## Abstract
 In this project, we will evaluate the performance and predictive power of a model that has been trained and tested on data collected from customers of portugal bank. A model trained on this data that is seen as a good fit could then be used to predict if the client will subscribe a term deposit or not.
 
-## Summary
+<hr>
+
+## Dataset
 
 Number of Instances | Number of Attributes | Numeric Features | Categorical Features | Target Feature |	Missing Values |
------------- | ------------- | ------------ | ------------- | ------------ | -------------
-41176 | 21 | 10 | 11 | y (binary) | Null
+:------------: | :-------------: | :------------: | :-------------: | :------------: | :-------------:
+41176 | 21 | 10 | 11 | y | Null
+
+<hr>
+
+## Model Performance
+
+| Model |	AUC Score |	Precision Score	| Recall Score | Accuracy Score	| f1-score |
+:------------: | :-------------: | :------------: | :-------------: | :------------: | :-------------:
+| KNN |	0.904284	| 0.882394	| 0.931155	| 0.904119	| 0.906119 |
+
+<hr>
 
 ## Attribute Information
 <br>
