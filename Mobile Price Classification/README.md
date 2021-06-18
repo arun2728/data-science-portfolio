@@ -63,7 +63,7 @@ The data is collected from different sources and stored into [mobile_price.csv](
 
 ## Conclusion
 
-During the analysis the given problem of predicting the price range we found that the problem is a multiclass classiffication problem and the dataset given is balanced with respect different categories of target feature (price_range).
+During the analysis the given problem of predicting the price range we found that the problem is a multiclass classification problem and the dataset given is balanced with respect different categories of target feature (price_range).
 
 We built different classifier for the given problem like KNN, Naive Bayes, Random Forest but Gradient Boosting Classifier outperformed other classifiers with test accuracy of 91.8% and a f1-score of 0.917.
 
