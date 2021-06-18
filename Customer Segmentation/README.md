@@ -16,9 +16,9 @@ In this project, we need to extract segments of customers depending on their beh
 
 ## Dataset
 
-Number of Instances | Number of Attributes | Numeric Features | Categorical Features | Target Feature |	Missing Values |
-:------------: | :-------------: | :------------: | :-------------: | :------------: | :-------------:
-41176 | 21 | 10 | 11 | y | Null
+| Number of Instances| Number of Attributes | 	Numeric Features	| Categorical Features	| Missing Values| 
+ | :-------------: | :------------: | :-------------: | :------------: | :-------------:| 
+ | 8950	| 17| 	17	| 0	| Null| 
 
 <hr>
 
