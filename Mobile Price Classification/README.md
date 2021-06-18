@@ -1,4 +1,4 @@
-# Portugal Bank Marketing Campaign
+# Mobile Price Prediction
 
 *The dataset for this project originates from the [Classify Mobile Price Range](https://www.kaggle.com/iabhishekofficial/mobile-price-classification).*
 
@@ -58,21 +58,23 @@ The data is related with direct marketing campaigns of a Portuguese banking inst
 ### Output variable:
 
 **price_range** - This is the target variable with value of 0 (cheap), 1 (mid priced), 2 (costly) and 3(expensive)
- 
+
+<hr>
+
 ## Conclusion
 
 During the analysis the given problem of predicting the price range we found that the problem is a multiclass classiffication problem and the dataset given is balanced with respect different categories of target feature (price_range).
 
 We built different classifier for the given problem like KNN, Naive Bayes, Random Forest but Gradient Boosting Classifier outperformed other classifiers with test accuracy of 91.8% and a f1-score of 0.917.
 
-Additionaly, while extracting feature importance from trained gradient boosting classifier we found that the feature RAM is the most important feature to predict price among all the features which is also true in practical scenario.
 
-<hr>
-
-## Model Performance
+### Model Performance
 
 | Model |	Precision Score	| Recall Score | Accuracy Score	| f1-score |
 :------------: | :------------: | :-------------: | :------------: | :-------------:
 | Gradient Boosting	 |	0.917786	| 0.917883	| 0.918333	| 0.904119	| 0.917677 |
 
-<hr>
+
+Additionaly, while extracting feature importance from trained gradient boosting classifier we found that the feature RAM is the most important feature to predict price among all the features which is also true in practical scenario.
+
+![no imae](https://github.com/arun2728/data-science-portfolio/blob/main/Mobile%20Price%20Classification/plots/Feature_importance.png)
