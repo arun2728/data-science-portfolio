@@ -20,8 +20,8 @@ Number of Instances | Number of Attributes | Numeric Features | Categorical Feat
 
 
 ## Attribute Information
-<br>
-The data is related with direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed.
+
+The data is collected from different sources and stored into [mobile_price.csv](https://github.com/arun2728/data-science-portfolio/tree/main/Mobile%20Price%20Classification/data) file. 
 
 ### Input variables:
 - **battery_power** - Total energy a battery can store in one time measured in mAh
