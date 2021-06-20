@@ -8,7 +8,7 @@
 Some say climate change is the biggest threat of our age while others say it’s a myth based on dodgy science. We are turning some of the data over to you so you can form your own view.
 
 ### Problem Statement:
-In this problem we have to perform in-depth analysis to study the change of climate across all many years. Also we have to build a model capable enough to forecast temperature of india.
+In this problem we have to perform in-depth analysis to study the change of climate across all many years. Also we have to build a model capable enough to forecast temperature of bombay.
 
 ## Dataset
 The dataset originates from the Berkeley Earth Surface Temperature Study. It combines 1.6 billion temperature reports from 16 pre-existing archives. It is nicely packaged and allows for slicing into interesting subsets (for example by country). They publish the source data and the code for the transformations they applied. They also use methods that allow weather observations from shorter time series to be included, meaning fewer observations need to be thrown away.
