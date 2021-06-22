@@ -13,13 +13,15 @@ This case is about a bank (Universal bank) which has a growing customer base. Ma
 The department wants to build a model that will help them identify the potential customers who have a higher probability of purchasing the loan. This will increase the success ratio while at the same time reduce the cost of the campaign.
 
 ## Dataset
-The file **UniversalBank.csv** contains data on **5000** customers. The data include customer demographic information (age, income, etc.), the customer's relationship with the bank (mortgage, securities account, etc.), and the customer response to the last personal loan campaign (Personal Loan).
+The file **UniversalBank.csv** contains data on **5000** customers. 
 
 | Number of Instances | Number of Attributes | Numeric Features | Categorical Features | Target Feature |
 | :-: | :-: | :-: | :-: | :-: |
 | 5000  | 12 | 5 | 7  | PersonalLoan |
 
 ### Attribute Information
+
+The data include customer demographic information (age, income, etc.), the customer's relationship with the bank (mortgage, securities account, etc.), and the customer response to the last personal loan campaign (Personal Loan).
 
 1) **ID** (Customer ID)
 
