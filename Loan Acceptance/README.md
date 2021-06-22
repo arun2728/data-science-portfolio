@@ -65,10 +65,8 @@ The file **UniversalBank.csv** contains data on **5000** customers. The data inc
 14) **Personal Loan:** Did this customer accept the personal loan offered in the last campaign?
 
 
-<hr>
+## Exploratory Data Analysis
 
-<h4><center>Exploratory Data Analysis</center></h4>
-<hr>
 
 #### Numeric Features 
 
@@ -91,7 +89,6 @@ The file **UniversalBank.csv** contains data on **5000** customers. The data inc
 - **Income** and **CCAvg** are moderately correlated
 - **Age** and **Experience** are highly correlated
 
-<hr>
 
 #### Categorical Features
 
@@ -112,9 +109,7 @@ The file **UniversalBank.csv** contains data on **5000** customers. The data inc
 - Customers using a credit card don't opt for a certificate of deposit account with the bank also the one using a internet banking facilities have a certificate of deposit (CD) account with the bank.
 
 
-<hr>
-<h3><center><u>Conclusion</u></center></h3>
-<hr>
+## Conclusion
 
 The aim of the universal bank is to convert there liability customers into loan customers. They want to set up a new marketing campaign; hence, they need information about the connection between the variables given in the data. 
 
@@ -128,8 +123,7 @@ According to random forest classifier, target feature heavily depends on
 - **Family** - Family size of the customer
 - **Age** - Customer's age in completed years
 
-<h5><center>Trained Models</center></h5>
-<hr>
+#### Trained Models -
 
 | Models	| PR-AUC Score	| Precision	| Recall 	| f1-score |
 | :- | :- | :- | :- | :- |
@@ -138,23 +132,6 @@ According to random forest classifier, target feature heavily depends on
 | Naive Bayes	| 0.5733	| 0.4961	|  0.6095	 |0.5479 |
 | Support Vector Machine | 0.9032	| 0.9771 | 0.8095 | 0.885 |
 
-<hr>
+#### Precision Recall AUC Plot -
 
-## Model Inferences
-
-![no image](https://github.com/arun2728/data-science-portfolio/blob/main/Global%20Climate%20Change/output/inference.png)
-
-<hr>
-
-## Conclusion
-
-During my research it was found that there has been a global increase trend in temperature, particularly over the last 30 years. This is due to the violent activities of a humankind. In more developed countries the temperature began to register much earlier. Over time the accuracy of the observations is increased, that is quite natural. Mankind must reflect and take all necessary remedies to reduce emissions of greenhouse gases in the atmosphere.
-
-Additionally, I have build a Seasonal-ARIMA model to forecast temperature of Bomaby city. The built model is than used to predict the temperature of bombay for year 2013.
-
-
-#### Model Forecasting on temperature of Bombay in year 2013
-
-![no image](https://github.com/arun2728/data-science-portfolio/blob/main/Global%20Climate%20Change/output/Forecast.png)
-
-According to the forecasting Bombay will record a highest temperature of **28.55ºC** in the month of April i.e during summers. Additionaly, monsoon is going to be cooler and there will increase in temperature in post-monsoon period. The temperature in winter's will remain same i.e **25ºC**.
+![no image](https://github.com/arun2728/data-science-portfolio/blob/main/Loan%20Acceptance/model/models_roc_plot.png)
