@@ -80,7 +80,7 @@ Out the total number of customers the store have 50 percent of them are consumer
 
 Additionally, majority of the Profitable Customers are from New York and Michigan State. The store have higher number of sales (725,457) from West region with a net profit of $ 108,418
 
-The sales of the store keeps on increasing over time peroid now we can develop a time-series model capacble enough to predict sales and profit of the store.
+The sales of the store keeps on increasing over time peroid which is used as a baseline to develop a time-series model capable enough to predict sales and profit of the store.
 
 Additionaly, I have build a **Seasonal-ARIMA** model to forecast the sales. And stored the predictions in model directory.
 
