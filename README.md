@@ -15,3 +15,6 @@ Repository containing portfolio of data science projects completed by me for aca
 * ## Time Series Analysis
 
   * [Global Climate Change Analysis](https://github.com/arun2728/data-science-portfolio/tree/main/Global%20Climate%20Change) - In this project, we have performed in-depth analysis to study the change of climate across all many years. Also we have built a **Seasonal ARIMA** model capable enough to forecast temperature of bombay city. According to the forecasting, Bombay will record a highest temperature of **28.55ºC** in the month of April i.e during summers. Monsoon is going to be cooler and there will increase in temperature in post-monsoon period. The temperature in winter's will remain same i.e **25ºC**.
+  * [Sales Forecasting](https://github.com/arun2728/data-science-portfolio/tree/main/Sales%20Forecasting) - In this project, we have performed in-depth analysis of the sales of a store with respect to segment of customers, region, city, product's category, sub-category and the month of the year. The store generated the total-revenue of **$209,624** in the time stamp of four years. The time-series model was built to forecast the sales of the store after seven days. According to the forecasting sales of the store will be **$ 3060** on 2018-01-06.
+
+
